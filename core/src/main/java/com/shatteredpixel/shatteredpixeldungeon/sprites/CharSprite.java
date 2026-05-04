@@ -149,7 +149,7 @@ public class CharSprite extends MovieClip implements Tweener.Listener, MovieClip
 		ch.sprite = this;
 		
 		place( ch.pos );
-		turnTo( ch.pos, Random.Int( Dungeon.level.length() ) );
+		turnTo( ch.pos, Random.IntVisual( Dungeon.level.length() ) );
 		renderShadow = true;
 		
 		if (ch != Dungeon.hero) {
